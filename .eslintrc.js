@@ -5,7 +5,7 @@ module.exports = {
         jest: true,
         node: true,
     },
-    extends: ["@bradgarropy/eslint-config"],
+    extends: ["@bradgarropy/eslint-config", "./rules/typescript.js"],
     overrides: [
         {
             files: ["*.ts", "*.tsx"],
