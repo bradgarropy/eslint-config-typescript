@@ -1,6 +1,6 @@
 {
     "name": "@bradgarropy/eslint-config-typescript",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "💎 eslint configuration",
     "keywords": [
         "eslint",
@@ -36,6 +36,7 @@
         "@typescript-eslint/eslint-plugin": "^4.9.1",
         "@typescript-eslint/parser": "^4.9.1",
         "eslint": "^7.15.0",
+        "react": "^17.0.2",
         "typescript": "^4.1.2"
     }
 }
