@@ -6,12 +6,6 @@ module.exports = {
         node: true,
     },
     extends: ["./rules/typescript.js"],
-    overrides: [
-        {
-            files: ["*.ts", "*.tsx"],
-            extends: ["plugin:@typescript-eslint/recommended"],
-        },
-    ],
     parserOptions: {
         ecmaFeatures: {},
         sourceType: "module",
