@@ -1,4 +1,4 @@
-# 💎 eslint-config-typescript
+# 🟦 eslint-config-typescript
 
 <a href="https://www.npmjs.com/package/@bradgarropy/eslint-config-typescript">
     <img alt="npm" src="https://img.shields.io/npm/v/@bradgarropy/eslint-config-typescript.svg?color=FB3B49&style=flat-square">
@@ -8,7 +8,7 @@
     <img alt="npm" src="https://img.shields.io/npm/dt/@bradgarropy/eslint-config-typescript?style=flat-square">
 </a>
 
-_My personal [eslint][1] configuration._
+_My personal [eslint][1] configuration for [typescript][typescript]._
 
 ## 📦 Installation
 
@@ -50,3 +50,4 @@ And if all else fails, you can ask me directly on [Twitter][7] or my [AMA][8].
 [6]: https://eslint.org/docs/developer-guide/shareable-configs
 [7]: https://twitter.com/bradgarropy
 [8]: https://github.com/bradgarropy/ama
+[typescript]: https://typescriptlang.org
