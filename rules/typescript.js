@@ -11,6 +11,18 @@ module.exports = {
                         ignoreRestSiblings: true,
                     },
                 ],
+                "@typescript-eslint/consistent-type-imports": [
+                    "error",
+                    {
+                        prefer: "type-imports",
+                        disallowTypeAnnotations: true,
+                        fixStyle: "separate-type-imports",
+                    },
+                ],
+                "@typescript-eslint/consistent-type-exports": [
+                    "error",
+                    {fixMixedExportsWithInlineTypeSpecifier: false},
+                ],
             },
         },
     ],

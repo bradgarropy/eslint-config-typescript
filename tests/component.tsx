@@ -1,4 +1,4 @@
-import {FC} from "react"
+import type {FC} from "react"
 
 type ComponentProps = {
     name: string
@@ -9,3 +9,4 @@ const Component: FC<ComponentProps> = ({name}) => {
 }
 
 export default Component
+export type {ComponentProps}
