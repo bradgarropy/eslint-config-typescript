@@ -8,46 +8,41 @@
     <img alt="npm" src="https://img.shields.io/npm/dt/@bradgarropy/eslint-config-typescript?style=flat-square">
 </a>
 
-_My personal [eslint][1] configuration for [typescript][typescript]._
+_My personal [eslint][eslint] configuration for [typescript][typescript]._
 
 ## 📦 Installation
 
-This package is hosted on [npm][2].
+This package is hosted on [npm][npm].
 
-Install the configuration and it's peer dependencies as a development dependency.
+Install the configuration as a development dependency.
 
 ```
-npx install-peerdeps --dev @bradgarropy/eslint-config-typescript
+npm install --dev @bradgarropy/eslint-config-typescript
 ```
-
-> This installs peer dependencies automatically using [npx][3] and [install-peerdeps][4] so you don't have to!
 
 ## 🥑 Usage
 
-Create an `.eslintrc` file in the root of your project and tell it to extend the configuration.
+Create an `eslint.config.js` file in the root of your project and tell it to extend the configuration.
 
-```
-{
-    extends: "@bradgarropy/eslint-config-typescript"
-}
+```javascript
+import bgConfigTypescript from "@bradgarropy/eslint-config-typescript"
+
+const config = [...bgConfigTypescript]
+
+export default config
 ```
 
 > You can add more ESLint configuration options in this file if you want.
 
 ## ❔ Questions
 
-If you have any trouble, definitely [open an issue][5] and I'll take a look.
+🐛 report bugs by filing [issues][issues]  
+📢 provide feedback with [issues][issues] or on [twitter][twitter]  
+🙋🏼‍♂️ use my [ama][ama] or [twitter][twitter] to ask any other questions
 
-Or you can consult the [ESLint Shareable Configs documentation][6].
-
-And if all else fails, you can ask me directly on [Twitter][7] or my [AMA][8].
-
-[1]: https://eslint.org
-[2]: https://www.npmjs.com/package/@bradgarropy/eslint-config-typescript
-[3]: https://www.npmjs.com/package/npx
-[4]: https://www.npmjs.com/package/install-peerdeps
-[5]: https://github.com/bradgarropy/eslint-config-typescript/issues
-[6]: https://eslint.org/docs/developer-guide/shareable-configs
-[7]: https://twitter.com/bradgarropy
-[8]: https://github.com/bradgarropy/ama
+[eslint]: https://eslint.org
 [typescript]: https://typescriptlang.org
+[npm]: https://www.npmjs.com/package/@bradgarropy/eslint-config-typescript
+[issues]: https://github.com/bradgarropy/eslint-config/issues
+[twitter]: https://twitter.com/bradgarropy
+[ama]: https://github.com/bradgarropy/ama
