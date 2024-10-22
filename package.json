@@ -1,6 +1,6 @@
 {
     "name": "@bradgarropy/eslint-config-typescript",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "type": "module",
     "exports": "./index.js",
     "description": "🟦 typescript eslint configuration",
@@ -34,7 +34,7 @@
         "@types/eslint": "^9.6.0",
         "@types/react": "^18.0.21",
         "eslint": ">= 9",
-        "globals": "^15.9.0",
+        "globals": "^15.11.0",
         "react": "^18.2.0",
         "typescript": "^5.0.2",
         "typescript-eslint": "^8.1.0"
